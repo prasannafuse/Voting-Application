@@ -1,0 +1,10 @@
+{
+    "name": "Prasanna Fuse",
+    "age": 21,
+    "mobile": "9373716355",
+    "email": "fuseprasanna165@gmail.com",
+    "address": "State Bank Nagar, Pune",
+    "addharCardNumber": "1234567890",
+    "password": "Prasanna@123"
+
+}

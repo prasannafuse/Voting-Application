@@ -111,6 +111,19 @@ router.put('/profile/password', jwtAuthMiddleware, async (req, res) => {
 });
 
 
+// GET The list of the users
+router.get("/voter-list", async (req,res)=>{
+    try{
+        const data = await User.find();
+        console.log("Data Fetched!!");
+        res.send(data);
+    }
+    catch(err){
+        console.log(err);
+        res.status(500).json({error:"Internal Server Error"});
+    }
+});
+
 
 
 module.exports = router;

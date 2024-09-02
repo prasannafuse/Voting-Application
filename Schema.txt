@@ -1,3 +1,4 @@
+Voter:
 {
     "name": "Prasanna Fuse",
     "age": 21,
@@ -7,4 +8,11 @@
     "addharCardNumber": "1234567890",
     "password": "Prasanna@123"
 
+}
+
+Candidate: 
+{
+    "name": "Narendra Modi",
+    "party": "BJP",
+    "age": 71
 }
